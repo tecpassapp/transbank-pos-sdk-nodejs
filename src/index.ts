@@ -8,24 +8,24 @@ export { responseCodes, type ResponseCode, type ResponseMessage } from './respon
 
 // Re-export types for consumers
 export type {
-  BaseResponse,
-  LoadKeysResponse,
-  CloseDayResponse,
-  CloseDayWithVoucherResponse,
-  GetTotalsResponse,
-  RefundResponse,
-  RefundAutoservicioResponse,
-  SaleResponse,
-  SaleAutoservicioResponse,
-  SaleDetailResponse,
-  IntermediateResponse,
-  InitializationResponse,
-  IntermediateCallback,
-  SaleDetailCallback,
+	BaseResponse,
+	LoadKeysResponse,
+	CloseDayResponse,
+	CloseDayWithVoucherResponse,
+	GetTotalsResponse,
+	RefundResponse,
+	RefundAutoservicioResponse,
+	SaleResponse,
+	SaleAutoservicioResponse,
+	SaleDetailResponse,
+	IntermediateResponse,
+	InitializationResponse,
+	IntermediateCallback,
+	SaleDetailCallback,
 } from './types/index.js';
 
 // Default export for backward compatibility
 export default {
-  POSIntegrado,
-  POSAutoservicio,
+	POSIntegrado,
+	POSAutoservicio,
 };
